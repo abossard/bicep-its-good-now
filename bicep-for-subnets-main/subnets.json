@@ -1,0 +1,68 @@
+{
+  "trial-1": {
+    "addressPrefix": "10.0.1.0/24",
+    "restrictEgressTo":[]
+  },
+  "trial-2": {
+    "addressPrefix": "10.0.2.0/24",
+    "restrictEgressTo":[]
+  },
+  "trial-3": {
+    "addressPrefix": "10.0.3.0/24",
+    "restrictEgressTo":[]
+  },
+  "trial-4": {
+    "addressPrefix": "10.0.4.0/24",
+    "restrictEgressTo":[]
+  },
+  "trial-5": {
+    "addressPrefix": "10.0.5.0/24",
+    "restrictEgressTo":[]
+  },
+  "trial-6": {
+    "addressPrefix": "10.0.6.0/24",
+    "restrictEgressTo":[]
+  },
+  "trial-7": {
+    "addressPrefix": "10.0.7.0/24",
+    "restrictEgressTo":[]
+  },
+  "workstation-12": {
+    "addressPrefix": "10.0.127.0/24",
+    "restrictEgressTo":  [
+        "trial-1",
+        "trial-2"
+    ]
+  },
+  "workstation-123": {
+    "addressPrefix": "10.0.128.0/24",
+    "restrictEgressTo":  [
+        "trial-1",
+        "trial-2",
+        "trial-3"
+    ]
+  },
+  "workstation-46": {
+    "addressPrefix": "10.0.129.0/24",
+    "restrictEgressTo":  [
+        "trial-4",
+        "trial-6"
+    ]
+  },
+  "workstation-35": {
+    "addressPrefix": "10.0.130.0/24",
+    "restrictEgressTo":  [
+        "trial-3",
+        "trial-5"
+    ]
+  },
+  "workstation-3456": {
+    "addressPrefix": "10.0.131.0/24",
+    "restrictEgressTo":  [
+        "trial-3",
+        "trial-4",
+        "trial-5",
+        "trial-6"
+    ]
+  }
+}

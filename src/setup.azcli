@@ -1,0 +1,2 @@
+az group create -n anbo-bicep -l westeurope
+az deployment group create -g anbo-bicep --template-file ./1_data_types.bicep
